@@ -1,0 +1,38 @@
+
+.our-doctors-container {
+    margin-top: 4rem;
+    background-color: #20c997;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .our-doctors-heading {
+        display:flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+        .our {
+            font-weight:800;
+            font-size: xx-large;
+        }
+        .doctors {
+            margin-left: 8px;
+            font-size: xx-large;
+            font-weight:800;
+            color: white;
+        }
+    }
+
+    .our-doctors-details {
+        display:flex;
+        justify-content: space-around;
+        div {
+            width:4%;
+            background-color: white;
+            padding:10rem;
+            img {
+                margin-left: -9.25rem;
+                margin-top: -12rem;
+            }
+        }
+    }
+
+}

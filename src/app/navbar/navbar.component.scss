@@ -1,0 +1,62 @@
+
+.navbar-top-content {
+    display:flex;
+    align-items: baseline;
+    justify-content: left;
+    fa-icon {
+        color:#20c997;
+        margin-left: 4rem;
+    }
+    fa-icon:hover {
+        cursor: pointer;
+    }
+    h4 {
+        color:#7b7676;
+        margin-left: 5px;
+    }
+    h4:hover {
+        cursor: pointer;
+    }
+}
+
+.nav-bar-cntainer {
+    background-color: #20c997;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: -1rem;
+    img {
+        background-color: white;
+        padding: 15px;
+        height: 5rem;
+        width: 4rem;
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+    h4:hover {  
+        cursor: pointer;
+        color:black;
+    }
+    
+    .user-icon {
+        margin-right: -3.5rem;
+        display: contents;
+    }
+
+    .fa-icon-class {
+        margin-right: -52px;
+        margin-top: -15px;
+    }
+    .user-icon:hover {
+        cursor: pointer;
+        color:black;
+    }
+    
+    .search-icon:hover {
+        cursor: pointer;
+        color:black;
+    }
+}

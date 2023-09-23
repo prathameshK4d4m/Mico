@@ -1,0 +1,141 @@
+
+.footer-container {
+    margin-top: 4rem;
+    background-color: #252525;
+
+    .copy-right {
+        margin-top: 5rem;
+        padding-bottom: 0.6rem;
+        p {
+            display: flex;
+            justify-content: center;
+            color:white;
+        }
+    }
+
+    .footer-logo {
+        display:flex;
+        img {
+            background-color: white;
+            margin-left: 5rem;
+            height: 4rem;
+            width: 3rem;
+            padding: 2rem;
+        }
+        span {
+            display: flex;
+            align-items: baseline;
+            margin-top: 4rem;
+            width: 87%;
+        }
+        input {
+            width: 74%;
+            margin-left: 4rem;
+            padding: -16rem;
+            background-color: unset;
+            border-right: none;
+            border-left: none;
+            color: white;
+        }
+        input:focus{
+            outline:none;
+        }
+    }
+
+    .footer-content {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-around;
+        h2 {
+            color: white;
+            font-weight: 800;
+        }
+
+        .address-content {
+            color:white;
+            
+            h4 {
+                margin-left:1rem;
+            }
+            .location {
+                display:flex;
+            }
+            .call {
+                display:flex;
+            }
+            .email {
+                display:flex;
+            }
+        }
+        .useful-link {
+            h4 {
+                color:white;
+            }
+            h4:hover {
+                cursor:pointer;
+                color:#20c997;
+            }
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: space-between;
+            width:50%;
+            fa-icon {
+                display: flex;
+                color:#20c997;
+                font-size: 21px;
+            }
+        }
+
+        .news {
+            .news-1 {
+                display:flex;
+                align-items:center;
+                h4 {
+                    color:white;
+                    margin-left: 1rem;
+                }
+                img {
+                    width: 85px;
+                    height: 71px;
+                }
+            }
+            .news-2 {
+                display:flex;
+                align-items:center;
+                margin-top:1rem;
+                h4 {
+                    color:white;
+                    margin-left:1rem;
+                }
+                img {
+                    width:86px;
+                }
+            }
+        }
+
+        .latest-post {
+            .latest-post-1 {
+                display:flex;
+                align-items:center;
+                h4 {
+                    color:white;
+                    margin-left: 1rem;
+                }
+            }
+            .latest-post-2 {
+                display:flex;
+                align-items:center;
+                margin-top:1rem;
+                h4 {
+                    color:white;
+                    margin-left:1rem;
+                }
+                img {
+                    width:86px;
+                }
+            }
+        }
+    }
+}

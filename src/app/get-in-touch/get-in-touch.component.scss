@@ -1,0 +1,71 @@
+
+.get-in-touch-container {
+
+    .get-in-touch-heading {
+            font-weight:800;
+            font-size: xx-large;
+            color: black;
+            margin-left: 5rem;
+            margin-top: 6rem;
+    }
+
+    .get-in-touch {
+        display:flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+    }
+    .form {
+        margin-left:5rem;
+        ::placeholder {
+            color: #20c997;
+        }
+        .full-name {
+            input {
+                padding: 15px;
+                width: 35rem;
+                border: 1px solid #20c997;
+            }
+        }
+        .email {
+            input {
+                padding: 15px;
+                width: 35rem;
+                border: 1px solid #20c997; 
+                margin-top: 2rem;
+            }
+        }
+        .phone-number {
+            input {
+                padding: 15px;
+                width: 35rem;
+                border: 1px solid #20c997; 
+                margin-top: 2rem;
+            }
+        }
+        .message {
+            input {
+                padding: 15px;
+                width: 35rem;
+                height: 5rem;
+                border: 1px solid #20c997; 
+                margin-top: 2rem;
+            }
+        }
+        .send {
+            button {
+                margin-top: 2rem;
+                height: 3rem;
+                width: 10rem;
+                color: white;
+                background-color: #20c997;
+                border: 1px solid #20c997;
+                font-weight: 800;
+            }
+            button:hover {
+                cursor: pointer;
+                background-color: #b1bab5;
+            }
+        }
+    }
+
+}

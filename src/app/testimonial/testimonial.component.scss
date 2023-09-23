@@ -1,0 +1,23 @@
+
+.testimonial-container {
+    margin-top: 6rem;
+    .testimonial-heading{
+        font-weight:800;
+        font-size: xx-large;
+        color: #20c997;
+        margin-left: 5rem;
+    }
+
+    .testimonial {
+        margin-top: 2rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        padding:15px;
+        box-shadow: 2px 2px 5px 5px gray;
+        h3 {
+            font-size: large;
+            font-weight: 700;
+            color: #20c997;
+        }
+    }
+}

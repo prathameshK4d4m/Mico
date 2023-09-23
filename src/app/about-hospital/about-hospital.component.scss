@@ -1,0 +1,42 @@
+
+.about-hospital-container {
+    display:flex;
+    justify-content: space-around;
+    margin-left: 7rem;
+    margin-right: 7rem;
+
+    .about-hospital-content {
+        margin-top: 7rem;
+        p {
+            color:#999;
+            margin-top:1rem;
+        }
+        button {
+            margin-top: 1rem;
+            padding: 13px;
+            width: 10rem;
+            border: 1px solid #252525;
+            background-color: #252525;
+            color: white;
+            border-radius: 6px;
+        }
+        button:hover {
+            cursor:pointer;
+            background-color: black;
+        }
+    }
+
+    .about-hospital-heading {
+        display:flex;
+        .about {
+            font-weight:800;
+            font-size: xx-large;
+        }
+        .hospital {
+            margin-left: 8px;
+            font-size: xx-large;
+            font-weight:800;
+            color: #20c997;
+        }
+    }
+}

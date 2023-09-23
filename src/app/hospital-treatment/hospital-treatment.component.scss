@@ -1,0 +1,38 @@
+
+.hospital-treatment-container {
+    margin-top: 5rem;
+
+
+    .hospital-treatment-heading {
+        display:flex;
+        justify-content: center;
+        .hospital {
+            font-weight:800;
+            font-size: xx-large;
+        }
+        .treatment {
+            margin-left: 8px;
+            font-size: xx-large;
+            font-weight:800;
+            color: #20c997;
+        }
+    }
+
+.treatment-types {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    h2 {
+        font-weight: 600;
+    }
+
+    h4 {
+        color: #20c997;
+    }
+    h4:hover {
+        cursor:pointer;
+        color:black;
+    }
+}
+
+}
